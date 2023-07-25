@@ -1,0 +1,233 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.head
+{
+    text-align: center;
+    color:chocolate;
+}
+.firstimg img
+{
+    width:100%;
+    height:400px;
+}
+.navbar img
+{
+height:70px;
+width:110px;
+
+}
+
+.navbar
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+}
+/* .nav1:hover
+{
+    background-color: aquamarine;
+    border: 1px solid rgb(230, 211, 211);
+    border-radius: 3px;
+    padding:3px;
+    cursor: pointer;
+}
+.nav2:hover
+{
+    background-color: aquamarine;
+    border: 1px solid rgb(230, 211, 211);
+    border-radius: 3px;
+    padding:3px;
+}
+.nav3:hover
+{
+    background-color: aquamarine;
+    border: 1px solid rgb(230, 211, 211);
+    border-radius: 3px;
+    padding:3px;
+}
+.nav4:hover
+{
+    background-color: aquamarine;
+    border: 1px solid rgb(230, 211, 211);
+    border-radius: 3px;
+    padding:3px;
+} */
+.navbar p
+{
+    color:darkgreen;
+}
+
+.container p
+{
+    font-size: 20px;
+    font-weight: bold;
+   
+    /* color:darkgreen; */
+}
+.formtext
+{
+    background-color: rgb(41, 87, 41);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.formtext1
+{
+    background-color: rgb(253, 47, 88);
+    width: 8%;
+    height:30px;
+    text-align: center;
+    padding: 5px;
+    
+}
+.formtext p
+{
+    font-size: 20px;
+}
+.wholecard img
+{
+  height:300px;
+  width:200px;
+  /* object-fit: fit; */
+}
+.wholecard
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin:10px;
+}
+
+input
+{
+width: 30%;
+}
+.descrip
+{
+    padding: 0px 20px;
+}
+.descrip p
+{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgb(240, 240, 18);
+    text-align: center;
+    height: 30px;
+    
+}
+.card1
+{
+    height:350px;
+    border: 1px solid black;
+    background-color: lightgray;
+    color: rgb(59, 3, 3);
+    transition: 1s;
+}
+.card2
+{
+    height:350px;
+    border: 1px solid black;
+    background-color: lightgray;
+    color: rgb(59, 3, 3);
+    transition: 1s;
+}
+.card3
+{
+    height:350px;
+    border: 1px solid black;
+    background-color: lightgray;
+    color: rgb(59, 3, 3);
+    transition: 1s;
+}
+.card1:hover, .card2:hover, .card3:hover
+{
+  transition: 1s;
+  transform: scale(1.05);
+}
+
+.formtext p
+{
+    color: white;
+}
+.socmed p
+{
+    font-size:45x;
+}
+.socmed
+{
+    background-color: lightgreen;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:600px) 
+{
+    .navbar
+    {
+
+       flex-direction: column;
+       gap:5px;
+       height:200px;
+       
+    }
+    .wholecard
+    {
+        flex-direction: column;
+         gap:5px;
+    }
+    .descrip p
+    {
+        height:100px;
+    }
+    .formtext input
+    {
+      width:200px;
+    }
+    .formtext1
+    {
+        width:100px;
+        
+        padding:5px;
+    }
+    
+}
+@media screen and (min-width:600px) and (max-width:1400px)
+{
+    .descrip p 
+    {
+        height:50px;
+
+    }
+    .wholecard{
+        gap:10px;
+    }
+    .formtext1{
+        width:90px;
+        height:30px;
+    }
+}
+

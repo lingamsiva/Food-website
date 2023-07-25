@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+}
+.det
+{
+    width:300px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box img{
+    height: 200px;
+    width:200px;
+    
+    
+    position:relative;
+    animation-name: ballmov;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ballmov
+{
+    0% {left:0px; top:0px;}
+    25% {left:0px; top:0px;}
+    50% {left:0px; top:0px;}
+    100% {left:0px; top:500px;}
+
+
+
+    
+}   
+
+
